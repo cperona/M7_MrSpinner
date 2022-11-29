@@ -1,0 +1,29 @@
+<GridLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:rowCount="1"
+        android:columnCount="1"
+        android:orientation="horizontal">
+    <ImageView
+            android:layout_width="240dp"
+            android:layout_height="193dp" tools:srcCompat="@tools:sample/avatars" android:id="@+id/image"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="50dp"
+            android:contentDescription="TODO" android:layout_row="0" android:layout_column="0"/>
+    <TextView android:text="Prem el botó: " android:layout_height="50dp"
+              android:textSize="24sp" android:layout_gravity="center"
+              android:layout_row="0"/>
+    <Button
+            android:text="Següent"
+            android:layout_width="131dp"
+            android:layout_height="50dp" android:id="@+id/button2"
+            android:layout_marginLeft="140dp"
+            android:layout_row="0" android:onClick="seguentGridOnclick"/>
+    <ImageButton
+            android:layout_width="78dp"
+            android:layout_height="50dp" app:srcCompat="?attr/actionModeCloseDrawable"
+            android:id="@+id/imageButton2" android:onClick="fletxaEnreraOnClick" android:contentDescription="TODO"
+            android:layout_row="0" android:layout_column="0"/>
+</GridLayout>
