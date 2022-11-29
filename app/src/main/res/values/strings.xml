@@ -4,7 +4,10 @@
     <string name="opcio_2">CANCELAR</string>
     <string name="marcam1">MARCARM1</string>
     <string name="marcam2">MARCARM2</string>
-    <string name="proteccioDades"><b>Protecció de dades:</b> Les dades seran tractades segons l\'article 27/2001 de La Llei de Protecció de Dades… </string>
+    <string name="proteccioDades">
+        <b>Protecció de dades:</b>
+        Les dades seran tractades segons l\'article 27/2001 de La Llei de Protecció de Dades…
+    </string>
     <string-array name="spinnerStrings">
         <item>Select item</item>
         <item>Programming</item>

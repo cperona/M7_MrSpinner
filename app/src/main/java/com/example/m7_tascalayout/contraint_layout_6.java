@@ -14,7 +14,7 @@ public class contraint_layout_6 extends AppCompatActivity {
     }
 
     public void seguentContstraintOnClick(View view) {
-        Intent intent = new Intent(this, contraint_layout_6.class);
+        Intent intent = new Intent(this, RadioCheck_7.class);
         startActivity(intent);
     }
 }

@@ -14,16 +14,11 @@
             android:theme="@style/Theme.M7_TascaLayout"
             tools:targetApi="31">
         <activity
-                android:name=".FormulariActivity_7"
+                android:name=".FormulariActivity_8"
                 android:exported="false"/>
         <activity
-                android:name=".RadioCheck"
-                android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
+                android:name=".RadioCheck_7"
+                android:exported="false">
         </activity>
         <activity
                 android:name=".contraint_layout_6"
@@ -42,7 +37,13 @@
                 android:exported="false"/>
         <activity
                 android:name=".relative_layout_1"
-                android:exported="false"/>
+                android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

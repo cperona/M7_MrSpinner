@@ -1,11 +1,12 @@
 package com.example.m7_tascalayout;
 
+import android.content.Intent;
 import android.view.View;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class RadioCheck extends AppCompatActivity {
+public class RadioCheck_7 extends AppCompatActivity {
 
     private boolean chkMarcam1;
     private  boolean chhMarcam2;
@@ -15,7 +16,7 @@ public class RadioCheck extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_radio_check);
+        setContentView(R.layout.activity_radio_check_7);
     }
 
     public void chkMarcam1OnClick(View view) {
@@ -41,5 +42,10 @@ public class RadioCheck extends AppCompatActivity {
 
     public void submitButtonOnClick(View view) {
         resultat();
+    }
+
+    public void radioSeguentButtonOnClick(View view) {
+        Intent intent =  new Intent(this, FormulariActivity_8.class);
+        startActivity(intent);
     }
 }

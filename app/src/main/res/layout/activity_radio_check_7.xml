@@ -5,7 +5,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".RadioCheck">
+        tools:context=".RadioCheck_7">
 
     <RadioGroup android:id="@+id/grbGrup1"
                 android:orientation="vertical"
@@ -49,6 +49,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:id="@+id/resultatTextView" android:textSize="20sp"
                 android:textAlignment="center"/>
+        <Button
+                android:text="Següent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/buttonRadioSeguent"
+                android:onClick="radioSeguentButtonOnClick"/>
     </RadioGroup>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
