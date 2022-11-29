@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/M7_MrSpinner.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/M7_MrSpinner.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/M7_TascaLayout.iml" filepath="$PROJECT_DIR$/.idea/modules/M7_TascaLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/M7_TascaLayout.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/M7_TascaLayout.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/M7_TascaLayout.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/M7_TascaLayout.app.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/M7_TascaLayout.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/M7_TascaLayout.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/M7_TascaLayout.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/M7_TascaLayout.app.unitTest.iml" />
