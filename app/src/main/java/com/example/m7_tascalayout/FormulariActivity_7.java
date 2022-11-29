@@ -10,4 +10,8 @@ public class FormulariActivity_7 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_formulari_7);
     }
+
+
+
+
 }
